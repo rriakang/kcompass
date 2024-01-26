@@ -1,0 +1,118 @@
+/* Common styles for various screen sizes */
+body {
+    background: #DC8C5E;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+    /* body {
+        width: 1440px;
+        height: 1024px;
+    } */
+
+    #mental-test {
+        position: absolute;
+        width: 846px;
+        height: 518px;
+        left: 368px;
+        top: 454px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 73px;
+    }
+
+    #up_bar {
+        position: absolute;
+        width: 1000%;
+        height: 102px;
+        left: -72px;
+        top: 0px;
+
+        background: #1F2833;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+    }
+
+    #ccl-mental {
+        position: absolute;
+        width: 120px;
+        height: 46px;
+        left: 12px;
+        top: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    #admin {
+        position: absolute;
+        width: 233px;
+        height: 80px;
+        left: 487px;
+        top: 592px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+    }
+   
+    #gotest {
+        position: absolute;
+        width: 233px;
+        height: 80px;
+        left: 771px;
+        top: 590px;
+        background: #1F2833;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+      
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    #test-info {
+        position: absolute;
+        width: 846px;
+        height: 518px;
+        left: 320px;
+        top: 360px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #1F2833;
+    } 
+}
+
+
+
+/* Rectangle 4 */
+
+

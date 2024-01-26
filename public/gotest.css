@@ -1,0 +1,155 @@
+/* Common styles for various screen sizes */
+body {
+    background: #DC8C5E;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+
+    #up_bar {
+        background-color: #1f2833;
+        border-radius: 2rem;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 12rem;
+        margin-bottom: 11.4rem;
+        padding: 3.7rem 4.5rem 3.4rem 4.5rem;
+        width: 100%;
+
+    }
+    #ccl-mental {
+
+        color: #ffffff;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 1.2125;
+        max-width: 8.4rem;
+    }
+    #blocks {
+        display: flex;
+        justify-content: center; /* 가로 정렬 */
+        align-items: center; /* 세로 정렬 */
+        flex-shrink: 0;
+        height: 59.3rem;
+        margin: 0rem 10.3rem 0rem 10.2rem;
+        width: calc(100% - 20.5rem);
+        
+    }
+    }
+    #block1 {
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 4.4rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: 100%;
+        padding: 7.5rem 2.1rem 14.3rem 2.1rem;
+        width: 37.7rem;
+        margin: 0 1.5rem; 
+        
+    }
+
+    #block2 {
+        align-items: center;
+        background-color: #1f2833;
+        border-radius: 4.4rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: 100%;
+        padding: 7.5rem 1.85rem 11.9rem 1.85rem;
+        width: 37.7rem;
+        margin: 0 1.5rem; 
+    }
+
+    #block3 {
+        
+        align-items: center;
+        background-color: #9d5e3b;
+        border-radius: 4.4rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: 100%;
+        padding: 7.5rem 2.1rem 11.9rem 2.1rem;
+        width: 37.7rem;
+        margin: 0 1.5rem; 
+  
+    }
+    #testA {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 6rem;
+        font-weight: 600;
+        line-height: 1.2125;
+        margin: 0rem 1.6rem 25.3rem 0rem;
+        white-space: nowrap;
+    }
+    #A_txt {
+        color: #1f2833;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.2125;
+        max-width: 33.5rem;
+        text-align: center;
+    }
+
+    #testB{
+
+        color: #ffffff;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 6rem;
+        font-weight: 600;
+        line-height: 1.2125;
+        margin: 0rem 0.2rem 25.3rem 0rem;
+        white-space: nowrap;
+    }
+
+    #B_txt {
+
+        color: #ffffff;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.2125;
+        max-width: 34rem;
+        text-align: center;
+    }
+
+    #testC {
+        color: #1f2833;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 6rem;
+        font-weight: 600;
+        line-height: 1.2125;
+        margin: 0rem 0.8rem 25.3rem 0rem;
+        white-space: nowrap;
+      }
+
+    #C_txt {
+        color: #1f2833;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.2125;
+        max-width: 33.5rem;
+        text-align: center;
+    }
+
+
+   

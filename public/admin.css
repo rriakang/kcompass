@@ -1,0 +1,165 @@
+/* Common styles for various screen sizes */
+body {
+    background: #DC8C5E;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+    #up_bar {
+        background-color: #1f2833;
+        border-radius: 2rem;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 12rem;
+        margin-bottom: 11.4rem;
+        padding: 3.7rem 4.5rem 3.4rem 4.5rem;
+        width: 100%;
+    }
+    #ccl-mental {
+        color: #ffffff;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 1.2125;
+        max-width: 8.4rem;
+    }
+
+    .login_form {
+        
+        align-items: flex-end;
+        background-color: #ffffff;
+        border-radius: 2.2rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin: 0rem 9.8rem 0rem 10.9rem;
+        padding: 6rem 5.342rem 16.1rem 6rem; /* 수정된 padding 값 */
+        width: calc(100% - 20.7rem);
+
+    }
+
+    .title {
+   
+
+        position: absolute;
+        width: 384px;
+        height: 144px;
+        left: 169px;
+        top: 201px;
+        margin-top: 15rem;
+        margin-left: 5rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 73px;
+
+        color: #1F2833;
+
+
+    }
+
+
+    .login_text {
+        /* input your ID and password here */
+
+        color: #1f2833;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin: 0rem 8.658rem 3.3rem 0rem;
+        white-space: nowrap;
+    }
+    .id {
+     
+        background-color: #eaeaea;
+        border-radius: 1.6rem;
+        box-sizing: border-box;
+        color: #1f2833;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin: 0rem 0.1rem 1.6rem 0rem;
+        padding: 2.6rem 3rem 2.5rem 3rem;
+        white-space: nowrap;
+        width: 47.058rem;
+
+    }
+
+
+    .pas {
+
+        background-color: #eaeaea;
+        border-radius: 1.6rem;
+        box-sizing: border-box;
+        color: #1f2833;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin: 0rem 0.1rem 1.5rem 0rem;
+        padding: 2.4rem 2.9rem 2.7rem 2.9rem;
+        white-space: nowrap;
+        width: 47.058rem; 
+    }
+
+
+    .button{
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        
+    }
+
+    .join {
+        height: 10rem;
+        align-items: center;
+        background-color: #1f2833;
+        border-radius: 1.6rem;
+        color:  #ffffff;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 3.2rem;
+        font-weight: 400;
+        height: 100%;
+        justify-content: center;
+        line-height: 1.2125;
+        margin-right: 0.442rem;
+        white-space: nowrap;
+        width: 23.258rem;
+
+    }
+    .login {
+        height: 7.8rem;
+        align-items: center;
+        background-color: #1f2833;
+        border-radius: 1.6rem;
+        color: #ffffff;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 3.2rem;
+        font-weight: 400;
+        height: 100%;
+        justify-content: center;
+        line-height: 1.2125;
+        white-space: nowrap;
+        width: 23.258rem;
+      
+
+    }
+  
+
+}
+
+

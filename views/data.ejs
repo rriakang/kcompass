@@ -1,0 +1,105 @@
+<!-- data.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administor Data Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        /* 하이퍼링크에 밑줄 없애기 */
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <h1>
+        <p class="font-monospace">
+            <a href="http://localhost:8000/data">KCOMPASS DATA</a>
+        </p>
+    </h1>
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!-- Navbar content -->
+            <a class="navbar-brand mx-auto" href="http://localhost:8000/data">
+                <p class="font-monospace">Data</p>
+            </a>
+            <a class="navbar-brand mx-auto" href="http://localhost:8000/data">
+                <p class="font-monospace">Visualize</p>
+            </a>
+            <a class="navbar-brand mx-auto" href="http://localhost:8000/data">
+                <p class="font-monospace">Administor</p>
+            </a>
+        </div>
+    </nav>
+    <div class="font-monospace">
+        <table class="table table-sm mx-auto my-4">
+            <thead class="table-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Age</th>
+                    <th>Sex_MF</th>
+                    <th>Marriage</th>
+                    <th>Employment</th>
+                    <th>Religion</th>
+                    <th>Cohabitant</th>
+                    <th>UrbanRural</th>
+                    <th>NP_Family_Hx</th>
+                    <th>Med_Hx</th>
+                    <th>NP_Hx</th>
+                    <th>Initial_PHQ9</th>
+                    <th>Initial_BAI</th>
+                    <th>Initial_AUDIT</th>
+                    <th>Initial_SRS</th>
+                    <th>Initial_KNHANES</th>
+                    <th>Initial_BIS</th>
+                    <th>Initial_ETI</th>
+                </tr>
+            </thead>
+            <!-- Add more columns as needed -->
+            <% for (let row of test1Data) { %>
+                <tr>
+                    <td><%= row.id %></td>
+                    <td><%= row.Age %></td>
+                    <td><%= row.Sex_MF %></td>
+                    <td><%= row.Marriage %></td>
+                    <td><%= row.Employment %></td>
+                    <td><%= row.Religion %></td>
+                    <td><%= row.Cohabitant %></td>
+                    <td><%= row.UrbanRural %></td>
+                    <td><%= row.NP_Family_Hx %></td>
+                    <td><%= row.Med_Hx %></td>
+                    <td><%= row.NP_Hx %></td>
+                    <td><%= row.Initial_PHQ9 %></td>
+                    <td><%= row.Initial_BAI %></td>
+                    <td><%= row.Initial_AUDIT %></td>
+                    <td><%= row.Initial_SRS %></td>
+                    <td><%= row.Initial_KNHANES %></td>
+                    <td><%= row.Initial_BIS %></td>
+                    <td><%= row.Initial_ETI %></td>
+                    <!-- Add more columns as needed -->
+                </tr>
+            <% } %>
+        </table>
+    </div>
+    </table><!-- 페이지 번호 표시 및 이전/다음 버튼 추가 -->
+    <div class="d-flex justify-content-center">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <% for (let i = 1; i <= totalPages; i++) { %>
+                    <li class="page-item <%= currentPage == i ? 'active' : '' %>">
+                        <a class="page-link" href="/data?page=<%= i %>"><%= i %></a>
+                    </li>
+                <% } %>
+            </ul>
+        </nav>
+    </div>
+    
+
+    <!-- 페이지 추가 하는거 만들기 -->
+    
+    </div>
+</body>
+</html>

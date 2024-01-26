@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="./public/main.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Your Mental Health Test</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Desktop - 1 -->
+    <div id="desktop-1">
+        
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <p class="font-monospace">
+                    CCL MENTAL
+                </p>
+            </a>
+        </div>
+    </nav>
+        <!-- Launch test your MENTAL -->
+        <div id="mental-test">
+            <p class="font-monospace">
+            Launch test your MENTAL
+            </p>
+        </div>
+
+        <!-- Taking a mental health test can provide valuable insights... -->
+        <div id="test-info">
+            <p class="font-monospace">
+            Taking a mental health test can provide valuable insights,
+            <br>
+            helping you identify areas for improvement and discover a path towards a better life.
+            </p>
+        </div>
+
+        <!-- CCL MENTAL -->
+      
+        <br>
+        <!-- Rectangle 2 -->
+        <button type="button" class="btn btn-primary btn-sm" onclick="admin()">ADMINISTRATOR</button>
+        <button type="button" class="btn btn-secondary btn-sm" onclick="gotest()">GO TEST</button>
+        <!-- <button id="admin" onclick="admin()">ADMINISTRATOR</button> -->
+        <!-- <button id="gotest" onclick="gotest()">GO TEST</button> -->
+
+        <script>
+            function gotest() {
+                location.href = "/main";
+            }
+
+            function admin() {
+                location.href = "/administor";
+            }
+        </script>
+    </div>
+</body>
+</html>
